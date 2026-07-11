@@ -296,6 +296,35 @@
 
 }
 
+.cmln-slider-2 {
+    .logo {
+        max-height: 65px;
+        width: auto !important;
+    }
+
+    .img-1 {
+        max-height: 135px;
+        width: auto !important;
+    }
+
+    .img-2 {
+        max-height: 275px;
+        width: auto !important;
+    }
+
+    .img-3 {
+        max-width: 470px !important;
+        height: auto !important;
+    }
+}
+
+.barra_inferior_banner_2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FD2B73;
+    border-bottom: 80px solid #0226c3;
+}
+
 .c-slider-cta {
     position: absolute;
     color: #FFF;
@@ -358,6 +387,7 @@
             height: auto !important;
         }
     }
+
     &.caption-2 {
         img {
             max-width: 310px !important;
@@ -371,8 +401,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    .slide1{
-        .tp-bgimg{
+    .slide1 {
+        .tp-bgimg {
             background-image: url(../img/slider/bg-banner-2-xs.png) !important;
         }
     }
@@ -384,13 +414,14 @@
                 height: auto !important;
             }
         }
+
         &.caption-2 {
             img {
                 max-width: 210px !important;
                 height: auto !important;
             }
         }
-    
+
     }
 
 
@@ -457,12 +488,48 @@
             font-size: .8rem !important;
         }
     }
+
+    .cmln-slider-2 {
+        .img-1 {
+            max-height: 70px;
+        }
+
+        .logo {
+            max-height: 40px;
+        }
+
+        .img-2 {
+            max-height: 110px;
+        }
+
+        .img-3 {
+            max-height: 100px;
+            width: auto !important;
+        }
+    }
+
+    .barra_inferior_banner_2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 40px solid #0226c3;
+    }
+    .item-texto{
+        font-size: 1.7rem;
+        img{
+            display: none;
+        }
+    }
+    .texto-banner .intro
+    {
+        margin-bottom: 30px;
+    }
 }
 
 
 
 /* Estilos para dispositivos móviles en orientación horizontal */
 @media only screen and (max-width: 767px) and (orientation: landscape) {
+
     /* Tus estilos específicos para dispositivos móviles en orientación horizontal aquí */
     .cmln-slider .slide1 .tp-caption {
         &.caption-1 {
@@ -471,17 +538,23 @@
                 height: auto !important;
             }
         }
+
         &.caption-2 {
             img {
                 max-width: 210px !important;
                 height: auto !important;
             }
         }
-    
-    }
-  }
 
-  
+    }
+
+    .seccion_como_logramos .slick-dots li button:before{
+        font-size: 20px !important;
+    }
+
+}
+
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

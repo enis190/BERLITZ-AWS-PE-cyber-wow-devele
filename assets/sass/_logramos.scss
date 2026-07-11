@@ -3,150 +3,43 @@
     padding: 50px 0 50px;
     position: relative;
 
-    img {
+    .slider {
+        .item {
+            padding-left: 30px;
+            padding-right: 30px;
+            text-align: center;
+            font-family: 'IBMPlexSans-Regular';
 
+            h3 {}
+        }
+    }
+
+    .slick-dots li button:before {
+        font-size: 50px;
+    }
+
+    .titulo {
+        padding-bottom: 40px;
+        padding-top: 40px;
+        text-align: center !important;
         display: block;
-        height: auto;
-    }
 
-    .cara {
-        width: 130px;
-        position: absolute;
-        bottom: 0;
-        right: 20px;
-    }
-
-    .vector_left {
-        width: 218px;
-        height: 210px;
-        position: absolute;
-        left: 0;
-        top: calc(50% + 70px);
-        transform: translateY(-50%);
-        z-index: 10;
-        background-image: url('https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/logramos-vector-left.png');
-    }
-
-    .vector_right {
-        width: 235px;
-        height: 157px;
-        position: absolute;
-        right: 0;
-        top: calc(50% + 70px);
-        transform: translateY(-50%);
-        z-index: 10;
-        background-image: url('https://9068661.fs1.hubspotusercontent-na1.net/hubfs/9068661/assets/img/logramos-vector-right.png');
-    }
-
-    h2 {
-        font-family: 'IBMPlexSans-Bold';
-        color: #00287A;
-        font-size: 24px;
-        margin-bottom: 35px;
-        text-align: center;
-    }
-
-    .lista_items {
-        margin-bottom: 20px;
-
-        article {
-            margin-bottom: 25px;
-            width: 100%;
+        h2 {
+            font-size: 45px;
+            font-weight: 400;
+            line-height: 1.1;
+            text-align: center;
+            font-family: 'IBMPlexSans-MediumItalic';
+            margin: 0 0 35px;
+            color: #0433FF;
+            img{
+                max-height: 45px;
+                    margin-top: -20px;
+            }
         }
     }
-
-    .subtitulo {
-        width: 100%;
-        text-align: center;
-        font-size: 24px;
-        color: #00287A;
-        font-family: 'IBMPlexSans-BoldItalic';
-
-        span {
-            font-size: 32px;
-            color: #00287A;
-            line-height: 29px;
-        }
-    }
-}
-
-.titulo-berlitz {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 35px;
-}
-
-.titulo-berlitz .texto-izquierda {
-    font-size: 52px;
-    color: #0b39ff;
-    font-style: italic;
-    /* font-weight: 300; */
-    line-height: 1;
-}
-
-.titulo-berlitz .texto-derecha {
-    font-size: 52px;
-    color: #0b39ff;
-    font-style: italic;
-    /* font-weight: 300; */
-    line-height: 1;
-}
-
-.titulo-berlitz .img-berlitz {
-    height: 55px;
-    width: auto;
 }
 
 @media (max-width:574px) {
-    .seccion_como_logramos {
-        h2 {
-            font-size: 24px;
-            line-height: 26px;
-            margin-bottom: 45px;
-        }
-
-        .vector_left {
-            background-repeat: no-repeat;
-            background-size: cover;
-            top: calc(50% + 78px);
-            width: 122px;
-            height: 116px;
-        }
-
-        .vector_right {
-            background-repeat: no-repeat;
-            background-size: cover;
-            width: 122px;
-            height: 96px;
-            top: calc(30% + 29px);
-        }
-
-        .subtitulo {
-            letter-spacing: -0.5px;
-        }
-
-        .lista_items {
-            width: 150px;
-            display: block;
-            margin: 0 auto;
-        }
-    }
-
-    .titulo-berlitz .texto-izquierda {
-        font-size: 32px;
-
-    }
-
-    .titulo-berlitz .texto-derecha {
-        font-size: 32px;
-
-    }
-
-    .titulo-berlitz .img-berlitz {
-        height: 32px;
-        width: auto;
-    }
-
+    .seccion_como_logramos {}
 }
