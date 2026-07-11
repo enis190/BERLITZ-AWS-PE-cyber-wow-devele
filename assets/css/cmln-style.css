@@ -1248,6 +1248,15 @@ p span {
   .seccion_como_logramos .slick-dots li button:before {
     font-size: 20px !important;
   }
+  .cmln-slider-2 .logo {
+    max-height: 30px;
+  }
+  .cmln-slider-2 .img-1 {
+    max-height: 280px;
+  }
+  .cmln-slider-2 .img-2 {
+    max-height: 190px;
+  }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
