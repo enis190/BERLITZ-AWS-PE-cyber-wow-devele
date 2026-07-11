@@ -1084,11 +1084,11 @@ p span {
   width: auto !important;
 }
 .cmln-slider-2 .img-1 {
-  max-height: 135px;
+  max-height: 505px;
   width: auto !important;
 }
 .cmln-slider-2 .img-2 {
-  max-height: 275px;
+  max-height: 375px;
   width: auto !important;
 }
 .cmln-slider-2 .img-3 {
@@ -1807,6 +1807,7 @@ p span {
 .seccion_formulario .c-hs-form .hs-form-field .input .hs-input {
   width: 100%;
   background-color: #fff;
+  color: #000;
 }
 .seccion_formulario .c-hs-form .hs-form-field .input input[type=radio].hs-input {
   width: auto;
