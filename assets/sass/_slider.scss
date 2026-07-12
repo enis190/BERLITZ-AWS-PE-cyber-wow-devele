@@ -513,14 +513,16 @@
         padding-bottom: 30px;
         border-bottom: 40px solid #0226c3;
     }
-    .item-texto{
+
+    .item-texto {
         font-size: 1.7rem;
-        img{
-            display: none;
+
+        img {
+            //display: none;
         }
     }
-    .texto-banner .intro
-    {
+
+    .texto-banner .intro {
         margin-bottom: 30px;
     }
 }
@@ -548,7 +550,7 @@
 
     }
 
-    .seccion_como_logramos .slick-dots li button:before{
+    .seccion_como_logramos .slick-dots li button:before {
         font-size: 20px !important;
     }
 
@@ -556,6 +558,7 @@
         .logo {
             max-height: 30px;
         }
+
         .img-1 {
             max-height: 280px;
         }
@@ -563,6 +566,14 @@
         .img-2 {
             max-height: 190px;
         }
+    }
+
+    .hero-title2 {
+        text-align: center;
+    }
+
+    .contenedor-modalidades {
+        max-width: 540px !important;
     }
 
 }

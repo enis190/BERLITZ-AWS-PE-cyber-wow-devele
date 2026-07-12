@@ -1227,9 +1227,6 @@ p span {
   .item-texto {
     font-size: 1.7rem;
   }
-  .item-texto img {
-    display: none;
-  }
   .texto-banner .intro {
     margin-bottom: 30px;
   }
@@ -1256,6 +1253,12 @@ p span {
   }
   .cmln-slider-2 .img-2 {
     max-height: 190px;
+  }
+  .hero-title2 {
+    text-align: center;
+  }
+  .contenedor-modalidades {
+    max-width: 540px !important;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -2004,6 +2007,10 @@ p span {
   }
   .seccion_formulario .hs_form___tipo_telefono .input ul li label {
     width: auto;
+  }
+  .seccion_formulario .contenedor_caja_form {
+    padding: 20px;
+    display: block;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
