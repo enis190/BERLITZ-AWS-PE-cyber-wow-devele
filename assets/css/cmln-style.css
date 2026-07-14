@@ -1088,12 +1088,23 @@ p span {
   width: auto !important;
 }
 .cmln-slider-2 .img-2 {
-  max-height: 375px;
+  max-height: 325px;
   width: auto !important;
 }
 .cmln-slider-2 .img-3 {
   max-width: 470px !important;
   height: auto !important;
+}
+.cmln-slider-2 .img-4 {
+  position: relative !important;
+  max-height: 30px;
+  width: auto !important;
+}
+.cmln-slider-2 .cta_banner {
+  border: 8px solid #FFF;
+  animation: efectoFoco 5s ease-in-out infinite;
+  border-radius: 28px;
+  padding: 15px 15px !important;
 }
 
 .barra_inferior_banner_2 {
@@ -1213,10 +1224,14 @@ p span {
     max-height: 40px;
   }
   .cmln-slider-2 .img-2 {
-    max-height: 190px;
+    max-height: 150px;
   }
   .cmln-slider-2 .img-3 {
-    max-height: 100px;
+    max-height: 30px;
+    width: auto !important;
+  }
+  .cmln-slider-2 .img-4 {
+    max-height: 15px;
     width: auto !important;
   }
   .barra_inferior_banner_2 {
@@ -1253,6 +1268,18 @@ p span {
   }
   .cmln-slider-2 .img-2 {
     max-height: 190px;
+  }
+  .cmln-slider-2 .img-3 {
+    max-height: 20px;
+    width: auto !important;
+  }
+  .cmln-slider-2 .img-4 {
+    max-height: 20px;
+    width: auto !important;
+  }
+  .cmln-slider-2 .cta_banner {
+    border: 5px solid #FFF;
+    padding: 10px 10px !important;
   }
   .hero-title2 {
     text-align: center;

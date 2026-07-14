@@ -308,13 +308,26 @@
     }
 
     .img-2 {
-        max-height: 375px;
+        max-height: 325px;
         width: auto !important;
     }
 
     .img-3 {
         max-width: 470px !important;
         height: auto !important;
+    }
+
+    .img-4 {
+        position: relative !important;
+        max-height: 30px;
+        width: auto !important;
+    }
+
+    .cta_banner {
+        border: 8px solid #FFF;
+        animation: efectoFoco 5s ease-in-out infinite;
+        border-radius: 28px;
+        padding: 15px 15px !important;
     }
 }
 
@@ -499,11 +512,16 @@
         }
 
         .img-2 {
-            max-height: 190px;
+            max-height: 150px;
         }
 
         .img-3 {
-            max-height: 100px;
+            max-height: 30px;
+            width: auto !important;
+        }
+
+        .img-4 {
+            max-height: 15px;
             width: auto !important;
         }
     }
@@ -565,6 +583,21 @@
 
         .img-2 {
             max-height: 190px;
+        }
+
+        .img-3 {
+            max-height: 20px;
+            width: auto !important;
+        }
+
+        .img-4 {
+            max-height: 20px;
+            width: auto !important;
+        }
+
+        .cta_banner {
+            border: 5px solid #FFF;
+            padding: 10px 10px !important;
         }
     }
 
